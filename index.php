@@ -1,6 +1,7 @@
 <?php 
 
 require 'form.php';
+require 'personnage.php';
 require 'text.php';
 
 $form = new Form($_POST);
@@ -19,3 +20,14 @@ var_dump(Text::withZero(40));
         ?>
 
     </form>
+
+<?php 
+
+$harry = new Personnage('Harry');
+
+$harry->regenerer();
+
+var_dump($harry);
+
+
+?>
