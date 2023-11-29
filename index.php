@@ -17,7 +17,7 @@
 
         ?>
 
-        <form action="#" method="post">
+        <form action="#" method="post" class="container">
 
             <?php
                 echo $form->input('username');
