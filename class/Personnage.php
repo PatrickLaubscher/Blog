@@ -1,5 +1,6 @@
 <?php 
 
+namespace Tutoriel;
 Class Personnage {
 
     protected static $max_vie = 120;

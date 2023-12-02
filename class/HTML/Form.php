@@ -1,5 +1,9 @@
 <?php
 
+namespace Tutoriel\HTML;
+
+use DateTime;
+
 /** Class Form
  * Permet de générer un formulaire
  */

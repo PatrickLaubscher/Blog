@@ -1,3 +1,8 @@
+<?php 
+use \Tutoriel\HTML\BootstrapForm;
+use \Tutoriel\Autoloader;
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -23,7 +28,7 @@
                 echo $form->input('username');
                 echo $form->input('password');
                 echo $form->submit();
-
+                
             ?>
 
         </form>
