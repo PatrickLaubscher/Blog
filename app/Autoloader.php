@@ -12,7 +12,7 @@ class Autoloader {
         if (strpos($class, __NAMESPACE__ . '\\') === 0){
         $class = str_replace(__NAMESPACE__ . '\\', '', $class);
         $class = str_replace('\\', '/', $class);
-        require 'class/' . $class . '.php'; 
+        require '../app/' . $class . '.php'; 
         }
     }
 
