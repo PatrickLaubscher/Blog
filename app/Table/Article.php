@@ -19,7 +19,7 @@ class Article extends Table {
             WHERE articles.id = ?
         ", [$id], true);
     }
-
+    
     public static function getLast(){
         return self::query("
                 SELECT articles.id, articles.title, articles.content, categories.title as categorie 

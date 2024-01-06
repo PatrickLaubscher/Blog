@@ -25,8 +25,6 @@ class Table {
             return App::getDb()->query($statement, get_called_class(), $one);
         }
 
-
-
     }
 
     public static function all(){
